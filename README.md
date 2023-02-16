@@ -15,7 +15,7 @@
 
   ```gradle
 	dependencies {
-	        implementation 'com.github.BADREDDYN:Rubber:1.0.0'
+	        implementation 'com.github.BADREDDYN:Rubber:1.0.1'
 	}
   ```
 
