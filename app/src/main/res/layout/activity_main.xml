@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,11 +14,10 @@
         android:layout_marginTop="@dimen/_15dp"
         android:layout_marginEnd="@dimen/_5dp"
         android:layout_marginBottom="@dimen/_15dp"
-        android:text="Button"
+        android:text="@string/button"
         android:textSize="@dimen/_14sp" />
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <LinearLayout
         android:layout_width="@dimen/_300dp"
         android:layout_height="@dimen/_200dp"
         android:layout_gravity="center_horizontal"
@@ -27,7 +25,7 @@
         android:layout_marginTop="@dimen/_15dp"
         android:layout_marginEnd="@dimen/_5dp"
         android:layout_marginBottom="@dimen/_15dp"
-        tools:srcCompat="@color/purple_500" />
+        android:background="@color/design_default_color_primary" />
 
     <TextView
         android:id="@+id/textView"
@@ -36,7 +34,7 @@
         android:layout_margin="@dimen/_10dp"
         android:gravity="center"
         android:padding="@dimen/_10dp"
-        android:text="HELLO WORLD!"
-        android:textSize="@dimen/_40sp" />
+        android:text="@string/hello_world"
+        android:textSize="@dimen/_45sp" />
 
 </LinearLayout>

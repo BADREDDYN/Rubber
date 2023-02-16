@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Label small -->
+    <dimen name="_11sp">41sp</dimen>
+    <!-- Label Medium -->
+    <dimen name="_12sp">42sp</dimen>
+    <!-- Title Small -->
     <dimen name="_14sp">44sp</dimen>
+    <!-- Title Medium -->
     <dimen name="_16sp">46sp</dimen>
-    <dimen name="_18sp">48sp</dimen>
-    <dimen name="_20sp">50sp</dimen>
+    <!-- Title Large -->
+    <dimen name="_22sp">52sp</dimen>
+    <!-- Headline Small -->
     <dimen name="_24sp">54sp</dimen>
-    <dimen name="_40sp">70sp</dimen>
-    <dimen name="_60sp">90sp</dimen>
-
-
+    <!-- Headline Medium -->
+    <dimen name="_28sp">58sp</dimen>
+    <!-- Headline Large -->
+    <dimen name="_32sp">62sp</dimen>
+    <!-- Display Small -->
+    <dimen name="_36sp">66sp</dimen>
+    <!-- Display medium -->
+    <dimen name="_45sp">75sp</dimen>
+    <!-- Display Large -->
+    <dimen name="_57sp">87sp</dimen>
 
 </resources>
